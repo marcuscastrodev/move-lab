@@ -2,7 +2,7 @@
 
 **Responsive marketing mentorship landing page | Portfolio project**
 
-MOVE LAB is a marketing, growth and digital strategy mentorship initiative by Marcos Castro and EMI Marketing e Conteúdo. This repository showcases a standalone, framework-free adaptation of the original landing page.
+MOVE LAB is a marketing, growth and digital strategy mentorship initiative by Marcus Castro and EMI Marketing e Conteúdo. This repository showcases a standalone, framework-free adaptation of the original landing page.
 
 ## Features
 
@@ -50,4 +50,4 @@ Project concept, digital strategy and web implementation in collaboration with *
 
 ---
 
-Built by [Marcos Castro](https://github.com/marcuscastrodev).
+Built by [Marcus Castro](https://github.com/marcuscastrodev).
