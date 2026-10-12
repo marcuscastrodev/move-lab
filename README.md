@@ -1,52 +1,55 @@
-# MOVE LAB
+# MOVE LAB | Responsive Landing Page
 
-**Responsive marketing mentorship landing page | Portfolio project**
+A responsive, framework-free landing page for **MOVE LAB**, a marketing, growth and digital strategy mentorship initiative.
 
-MOVE LAB is a marketing, growth and digital strategy mentorship initiative by Marcus Castro and EMI Marketing e Conteúdo. This repository showcases a standalone, framework-free adaptation of the original landing page.
+**[View live demo →](https://marcuscastrodev.github.io/move-lab/)** · **[Developer profile](https://github.com/marcuscastrodev)**
+
+## Overview
+
+This repository is a standalone portfolio adaptation of a marketing landing page. It focuses on a clear content hierarchy, mobile usability, and a conversion-oriented interface, using HTML, CSS, and vanilla JavaScript without a frontend framework.
 
 ## Features
 
-- Responsive, custom-designed marketing website
-- Mobile navigation with accessible toggle and Escape-key support
+- Responsive custom layout and mobile navigation
+- Accessible navigation toggle with `aria-expanded` and Escape-key handling
 - Scroll-aware header and mobile call to action
-- Progressive reveal animations with reduced-motion support
-- Application form with client-side validation (demonstration only)
+- Scroll-triggered reveal animations, with reduced-motion preference respected
+- Application form with client-side validation **for demonstration only**
 
-## Tech stack
+## Technologies
 
-- HTML5
-- CSS3 (custom properties, responsive layouts and animations)
-- Vanilla JavaScript
-- Google Fonts (Space Grotesk, Archivo and Space Mono)
+HTML5 · CSS3 · Vanilla JavaScript · Google Fonts
+
+Fonts used: Space Grotesk, Archivo, and Space Mono.
 
 ## Run locally
 
-Open `index.html` in a modern browser, or run a static web server from the project folder:
+Open `index.html` in a browser, or serve the project locally:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000.
+Then visit `http://localhost:8000`.
 
-## Important: form integration
+## Important: demo form
 
-**This is a portfolio demo.** The application form validates input locally but **does not send, save, or process submissions**. The original exported project displayed a success message without a submission endpoint. A real deployment requires a backend or form service, appropriate privacy information, and end-to-end testing.
+**No submissions are sent, stored, or processed.** The form prevents submission and displays an explicit demonstration message. A production application would require a real submission endpoint, privacy handling, and end-to-end tests.
 
 ## Implementation notes
 
-The source project was exported with `x-dc`/`sc-if` custom tags, `{{ ... }}` template expressions, a `DCLogic` component, and a missing `support.js` runtime dependency. This adaptation removes those dependencies, separates markup, styles and interactions, and preserves the original design language.
+The original export contained custom template tags and expressions, including `x-dc`, `sc-if`, `{{ ... }}`, and a missing `support.js` dependency. This portfolio adaptation replaces those runtime dependencies with standalone markup, styles, and interactions while preserving the visual direction.
 
 ## My role
 
-Project concept, digital strategy and web implementation in collaboration with **EMI Marketing e Conteúdo**.
+Concept, digital strategy, and web implementation in collaboration with **EMI Marketing e Conteúdo**.
 
-## Next steps
+## Further improvements
 
-- Test across devices and browsers
-- Audit accessibility with automated and manual checks
-- Add real project screenshots and a live demo
-- Integrate a production-ready form endpoint if needed
+- Cross-browser and device testing
+- Automated and manual accessibility review
+- Authentic project screenshots
+- Production-ready form integration, if needed
 
 ---
 
